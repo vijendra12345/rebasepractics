@@ -11,12 +11,20 @@ public class ByController {
 	@GetMapping("/tata")
 	public String sayTata()
 	{
-		return "Tata...dear";
+
+		return "Tata...dear and user";
+
+	
+
 	}
 	
 	@GetMapping("/gn")
 	public String sayGN()
 	{
-		return "Good Night..dear";
+
+		return "Good Night..dear and user";
+
+		
+
 	}
 }
