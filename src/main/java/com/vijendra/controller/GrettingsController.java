@@ -10,12 +10,12 @@ public class GrettingsController {
 	@GetMapping("/hi")
 	public String sayHi()
 	{
-		return "Hi...";
+		return "Hi...dear";
 	}
 	
 	@GetMapping("/hello")
 	public String sayHello()
 	{
-		return "hello..";
+		return "hello..dear";
 	}
 }
